@@ -1,4 +1,4 @@
-# sqlmap ![](https://i.imgur.com/fe85aVR.png)
+# SqlmapXXII ![](https://i.imgur.com/fe85aVR.png)
 
 [![Build Status](https://api.travis-ci.org/sqlmapproject/sqlmap.svg?branch=master)](https://travis-ci.org/sqlmapproject/sqlmap) [![Python 2.6|2.7|3.x](https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/sqlmapproject/sqlmap.svg?colorB=ff69b4)](https://github.com/sqlmapproject/sqlmap/issues?q=is%3Aissue+is%3Aclosed) [![Twitter](https://img.shields.io/badge/twitter-@sqlmap-blue.svg)](https://twitter.com/sqlmap)
 
@@ -27,11 +27,11 @@ Usage
 
 To get a list of basic options and switches use:
 
-    python sqlmap.py -h
+    python SqlmapXXII.py -h
 
 To get a list of all options and switches use:
 
-    python sqlmap.py -hh
+    python SqlmapXXII.py -hh
 
 You can find a sample run [here](https://asciinema.org/a/46601).
 To get an overview of sqlmap capabilities, a list of supported features, and a description of all options and switches, along with examples, you are advised to consult the [user's manual](https://github.com/sqlmapproject/sqlmap/wiki/Usage).
